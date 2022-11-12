@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+dependencyResolutionManagement {
+
+    repositories {
+        google()
+//    notice here -------------------------
+        repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+        //    notice here -------------------------
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+
+rootProject.name = "Webservice_Studio"
+include ':app'

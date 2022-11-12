@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "85340172481",
+    "project_id": "webservice-studio",
+    "storage_bucket": "webservice-studio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85340172481:android:346453d45cd27c20e8e440",
+        "android_client_info": {
+          "package_name": "com.webservice.studio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85340172481-3bg8qu0j12qglitq4edbla5ks8g6ocu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.webservice.studio",
+            "certificate_hash": "d29589966e47645f19c15a94e0b2913c200bcdc8"
+          }
+        },
+        {
+          "client_id": "85340172481-1atlcuuc6m96aho6vru368vp7h98k93t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO9vtginev1EcfdTWSvdAF2mt7FM_KcQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85340172481-1atlcuuc6m96aho6vru368vp7h98k93t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-9384940957724048~8323216414"
+    }
+  ],
+  "configuration_version": "1"
+}

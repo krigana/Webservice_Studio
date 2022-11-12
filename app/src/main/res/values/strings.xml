@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Webservice Studio</string>
+    <string name="facebook_app_id" translatable="false">7959945677409006</string>
+    <string name="title_activity_splash" translatable="false">SplashActivity</string>
+    <string name="dummy_content" translatable="false">Splash Activity</string>
+    <string name="dynamic_link" translatable="false">https://webservicestudio.page.link/</string>
+    <string name="app_id" translatable="false">ca-app-pub-9384940957724048~8323216414</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-9384940957724048/6818563055</string>
+    <string name="inter_ad_unit_id" translatable="false">ca-app-pub-9384940957724048/9524902859</string>
+    <string name="impossible_game" translatable="false">Impossible Game</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+    <string name="title_activity_fullscreen" translatable="false">FullscreenActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="this_is_my_first_android_localization_project">This is my first Android localization project!</string>
+
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="register_user">Register</string>
+    <string name="cnf_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="login">LOGIN</string>
+    <string name="login_user">Login</string>
+</resources>

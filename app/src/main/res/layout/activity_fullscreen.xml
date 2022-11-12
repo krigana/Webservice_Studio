@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fullscreenBackgroundColor"
+    android:theme="@style/ThemeOverlay.Webservice_Studio.FullscreenContainer"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:textColor="?attr/fullscreenTextColor"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+	android:paddingRight="16dp"
+        android:orientation="vertical"
+        tools:context=".FullscreenActivity">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/dnipropetrovsk"
+                android:layout_marginBottom="20dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Guess the city in the image above"
+                android:textAlignment="center"
+                android:layout_marginBottom="20px">
+            </TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="New York"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:background="#0091EA"
+                android:textColor="#FFF"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/choice1"
+                />
+
+            <Button    android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Dnipro"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:background="#0091EA"
+                android:textColor="#FFF"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/choice2"
+                />
+
+            <Button    android:layout_width="match_parent"
+                       android:layout_height="60dp"
+                       android:text="Toronto"
+                       android:textSize="20sp"
+                       android:padding="8dp"
+                       android:background="#0091EA"
+                       android:textColor="#FFF"
+                       android:layout_marginBottom="15dp"
+                       android:id="@+id/choice3"
+                />
+    </LinearLayout>
+
+
+
+    </FrameLayout>
+
+</FrameLayout>

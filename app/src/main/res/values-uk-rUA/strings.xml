@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Webservice Studio</string>
+    <string name="login">УВІЙТИ</string>
+    <string name="register">РЕЄСТРЦІЯ</string>
+    <string name="this_is_my_first_android_localization_project">Це мій перший проект локалізації!</string>
+    <string name="password">Пароль</string>
+    <string name="login_user">Увійти</string>
+    <string name="cnf_password">Підтвердіть пароль</string>
+    <string name="already_registered">Вже зареєстровані?</string>
+    <string name="register_user">Реєстрація</string>
+    <string name="not_registered">Не зареєстровані?</string>
+    <string name="email">Email</string>
+</resources>
